@@ -1,8 +1,8 @@
-// setTimeout(function(){
-//   console.log('world');
-// } , 1000)
-//
-// console.log('hello');
+setTimeout(function(){
+  console.log('world');
+} , 1000)
+
+console.log('hello');
 
 for (var i=0;i<5;i++){
   setTimeout(myPrint(i),1000)
